@@ -19,7 +19,6 @@ The following is the Compatibility Matrix:
 | Plugin Version | ANI SDK Version | Gateway Version |
 | --- | --- | --- |
 | 0.1.x | 0.2.x | 0.2.x |
-| --- | --- | --- |
 | 0.2.x | 0.3.x | 0.3.x |
 
 ## License
