@@ -14,15 +14,22 @@ This organization hosts an Agent Networking Project following ANI. The project i
 ## Compatibility Notice
 Agent gateway and SDK follow independent semantic versioning.
 Newer SDK major versions may be **incompatible with older gateway releases**.
-Please review the [Compatibility Matrix](https://xxx.github.io/compatibility) before deployment or upgrade.
+The following is the Compatibility Matrix:
+
+| Plugin Version | ANI SDK Version | Gateway Version |
+| --- | --- | --- |
+| 0.1.x | 0.2.x | 0.2.x |
+| --- | --- | --- |
+| 0.2.x | 0.3.x | 0.3.x |
 
 ## License
 All official artifacts are released under the Apache 2.0 License unless otherwise noted.
 
 ## Get started
 
-- Step1: Deploy agent gateways (see xxx)
-- Step2: Make agents connect with gateways using SDKs or plugins (see xxx)
+- Step1: Deploy agent gateways (see [gateway repo](https://github.com/ani-org/gateway))
+- Step2: Make agents connect with gateways using SDKs (see [sdk repo](https://github.com/ani-org/sdk-python)) or dsh plugins (see [dsh plugin repo](https://github.com/ani-org/plugins))
+- Step3: More agents will be provided in [agents repo](https://github.com/ani-org/agents)
 
 ## Contributing
 We welcome issues, pull requests, feedback and third-party plugin contributions.
